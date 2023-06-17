@@ -55,7 +55,7 @@ shift $((OPTIND - 1))
 
 msg="$1"
 
-[ -z "$msg" ] && {
+[ -z "$msg" ] && [ "$#" -eq 0 ] && {
 	err "a message needs to be specified"
 	exit 1
 }
