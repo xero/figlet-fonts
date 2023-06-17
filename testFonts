@@ -11,7 +11,7 @@ $0 [-ht] [-d] [message]
 OPTIONS
   -h	display this help
   -t	specify this option if you have toilet fonts aswell
-  -d	font directory defaults to /usr/share/figlet
+  -d	font directory defaults to $fontDir
 EOF
 )
 
