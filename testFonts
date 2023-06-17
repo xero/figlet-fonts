@@ -56,7 +56,7 @@ shift $((OPTIND - 1))
 msg="$1"
 
 [ -z "$msg" ] && [ "$#" -eq 0 ] && {
-	err "a message needs to be specified"
+	echo "$help"
 	exit 1
 }
 
