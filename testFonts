@@ -62,11 +62,13 @@ msg="$1"
 
 if [ -n "$toiletFlag" ]; then
 	for i in "$fontDir"/*.flf "$fontDir"/*.tlf; do
+		[ "$i" = "./*.flf" ] && err "no fonts exist in directory" && exit 1
 		echo "Font: $(basename "$i" | sed 's,\.tlf,,g;s,\.flf,,g')"
 		figlet -f "$i" "$msg" 2> /dev/null
 	done
 else
 	for i in "$fontDir"/*.flf; do
+		[ "$i" = "./*.flf" ] && err "no fonts exist in directory" && exit 1
 		echo "Font: $(basename "$i" | sed 's,\.flf,,g')"
 		figlet -f "$i" "$msg" 2> /dev/null
 	done
