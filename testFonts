@@ -1,0 +1,73 @@
+#!/bin/sh
+
+fontDir="/usr/share/figlet"
+toiletFlag=
+
+help=$(
+	cat << EOF
+Usage:
+$0 [-ht] [-d] [message]
+
+OPTIONS
+  -h	display this help
+  -t	specify this option if you have toilet fonts aswell
+  -d	font directory defaults to /usr/share/figlet
+EOF
+)
+
+err()
+{
+	red="\033[31m"
+	reset="\033[0m"
+	for arg in "$@"; do
+		printf "%berror%b: %s\n" "$red" "$reset" "$arg" >&2
+	done
+}
+
+while getopts ":htd:" opt; do
+	case "$opt" in
+		h)
+			printf "%s\n" "$help"
+			exit
+			;;
+		t)
+			toiletFlag=1
+			;;
+		d)
+			fontDir="$OPTARG"
+			[ -d "$fontDir" ] || {
+				err "directory '$fontDir' does not exist"
+				exit 2
+			}
+			;;
+		:)
+			err "option -$OPTARG requires an argument"
+			exit 2
+			;;
+		*)
+			err "invalid option -$OPTARG"
+			exit 2
+			;;
+	esac
+done
+
+shift $((OPTIND - 1))
+
+msg="$1"
+
+[ -z "$msg" ] && {
+	err "a message needs to be specified"
+	exit 1
+}
+
+if [ -n "$toiletFlag" ]; then
+	for i in "$fontDir"/*.flf "$fontDir"/*.tlf; do
+		echo "Font: $(basename "$i" | sed 's#\.tlf##g;s#\.flf##g')"
+		figlet -f "$i" "$msg"
+	done
+else
+	for i in "$fontDir"/*.flf; do
+		echo "Font: $(basename "$i" | sed 's#\.flf##g')"
+		figlet -f "$i" "$msg"
+	done
+fi
