@@ -27,7 +27,7 @@ err()
 while getopts ":htd:" opt; do
 	case "$opt" in
 		h)
-			printf "%s\n" "$help"
+			echo "$help"
 			exit
 			;;
 		t)
@@ -62,12 +62,12 @@ msg="$1"
 
 if [ -n "$toiletFlag" ]; then
 	for i in "$fontDir"/*.flf "$fontDir"/*.tlf; do
-		echo "Font: $(basename "$i" | sed 's#\.tlf##g;s#\.flf##g')"
+		echo "Font: $(basename "$i" | sed 's,\.tlf,,g;s,\.flf,,g')"
 		figlet -f "$i" "$msg"
 	done
 else
 	for i in "$fontDir"/*.flf; do
-		echo "Font: $(basename "$i" | sed 's#\.flf##g')"
+		echo "Font: $(basename "$i" | sed 's,\.flf,,g')"
 		figlet -f "$i" "$msg"
 	done
 fi
