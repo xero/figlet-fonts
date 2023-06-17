@@ -58,10 +58,10 @@ done
 
 shift $((OPTIND - 1))
 
-msg="$1"
+msg="$(echo "$1" | sed 's/^ *//;s/ *$//')"
 
 [ -z "$msg" ] && {
-	err "a message needs to be specified"
+	err "a valid message needs to be specified"
 	exit 1
 }
 
