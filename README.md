@@ -15,7 +15,7 @@ My collection of ascii art fonts for [figlet](http://www.figlet.org/) or [toilet
 ## Installing Fonts
 Run the following command in your CLI to install all fonts in this repository to your figlet fonts directory:
 
-`wget https://github.com/xero/figlet-fonts/archive/master.zip && sudo unzip -j master.zip -d "$(figlet -I 2)" && rm master.zip`
+`sudo wget https://github.com/xero/figlet-fonts/archive/master.zip && sudo unzip -j master.zip 'figlet-fonts-master/examples/*' -d "$(figlet -I 2)" && sudo rm master.zip`
 
 This command will download the latest version of this repository, unzip it, and install all fonts to the right figlet fonts directory. 
 
