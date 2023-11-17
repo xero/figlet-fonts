@@ -1,0 +1,10 @@
+This is  n  x mpl 
+        X  X X   X
+        X  X X   X
+        .  X .   X
+        .  X .   X
+        .  X .   X
+        .  . .   .
+                  
+This is an example
+                  

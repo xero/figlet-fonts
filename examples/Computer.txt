@@ -1,0 +1,14 @@
+""8""                                           
+  8   e   e e  eeeee    e  eeeee    eeeee eeeee 
+  8e  8   8 8  8   "    8  8   "    8   8 8   8 
+  88  8eee8 8e 8eeee    8e 8eeee    8eee8 8e  8 
+  88  88  8 88    88    88    88    88  8 88  8 
+  88  88  8 88 8ee88    88 8ee88    88  8 88  8 
+                                                
+                                           
+eeee e    e eeeee eeeeeee eeeee e     eeee 
+8    8    8 8   8 8  8  8 8   8 8     8    
+8eee eeeeee 8eee8 8e 8  8 8eee8 8e    8eee 
+88   88   8 88  8 88 8  8 88    88    88   
+88ee 88   8 88  8 88 8  8 88    88eee 88ee 
+                                           
