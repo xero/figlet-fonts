@@ -1,0 +1,40 @@
+   .sSSSSSSSSs.                                                      
+.sSSSSSSSSSSSSSs. .sSSS SSSSS SSSSS .sSSSSSSSs.    SSSSS .sSSSSSSSs. 
+SSSSS S SSS SSSSS S SSS SSSSS S SSS S SSS SSSS'    S SSS S SSS SSSS' 
+SSSSS S  SS SSSSS S  SS SSSSS S  SS S  SS          S  SS S  SS       
+`:S:' S..SS `:S:' S..SSsSSSSS S..SS `SSSSsSSSa.    S..SS `SSSSsSSSa. 
+      S:::S       S:::S SSSSS S:::S .sSSS SSSSS    S:::S .sSSS SSSSS 
+      S;;;S       S;;;S SSSSS S;;;S S;;;S SSSSS    S;;;S S;;;S SSSSS 
+      S%%%S       S%%%S SSSSS S%%%S S%%%S SSSSS    S%%%S S%%%S SSSSS 
+      SSSSS       SSSSS SSSSS SSSSS SSSSSsSSSSS    SSSSS SSSSSsSSSSS 
+                                                                     
+                           
+.sSSSSs.    .sSSSs.  SSSSS 
+S SSSSSSSs. S SSS SS SSSSS 
+S  SS SSSSS S  SS  `sSSSSS 
+S..SSsSSSSS S..SS    SSSSS 
+S:::S SSSSS S:::S    SSSSS 
+S;;;S SSSSS S;;;S    SSSSS 
+S%%%S SSSSS S%%%S    SSSSS 
+SSSSS SSSSS SSSSS    SSSSS 
+                           
+                                                                              
+.sSSSSs.    .sSSS SSSSS .sSSSSs.    .sSSSsSS SSsSSSSS .sSSSSs.    SSSSS       
+S SSSSSSSs. S SSS SSSSS S SSSSSSSs. S SSS  SSS  SSSSS S SSSSSSSs. S SSS       
+S  SS SSSS' S  SS SSSSS S  SS SSSSS S  SS   S   SSSSS S  SS SSSSS S  SS       
+S..SS       `..SSsSSSs' S..SSsSSSSS S..SS       SSSSS S..SS SSSSS S..SS       
+S:::SSSS    s:::S SSSSs S:::S SSSSS S:::S       SSSSS S:::SsSSSSS S:::S       
+S;;;S       S;;;S SSSSS S;;;S SSSSS S;;;S       SSSSS S;;;S       S;;;S       
+S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS S%%%S       SSSSS S%%%S       S%%%S SSSSS 
+SSSSSsSS;:' SSSSS SSSSS SSSSS SSSSS SSSSS       SSSSS SSSSS       SSSSSsSS;:' 
+                                                                              
+            
+.sSSSSs.    
+S SSSSSSSs. 
+S  SS SSSS' 
+S..SS       
+S:::SSSS    
+S;;;S       
+S%%%S SSSSS 
+SSSSSsSS;:' 
+            
